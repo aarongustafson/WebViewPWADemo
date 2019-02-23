@@ -5,7 +5,7 @@
   "short_name": "WebViewPWA",
   "scope": "/",
   "display": "minimal-ui",
-  "start_url": "https://windarkmodepwademo.azurewebsites.net/",
+  "start_url": "https://webviewpwademo.azurewebsites.net/",
   "theme_color": "transparent",
   "description": "Just a test",
   "orientation": "any",
