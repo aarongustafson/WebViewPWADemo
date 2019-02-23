@@ -1,10 +1,10 @@
 {
   "dir": "ltr",
   "lang": "en-US",
-  "name": "Dark Mode PWA",
-  "short_name": "DkMdPWA",
+  "name": "WebView PWA",
+  "short_name": "WebViewPWA",
   "scope": "/",
-  "display": "browser",
+  "display": "minimal-ui",
   "start_url": "https://windarkmodepwademo.azurewebsites.net/",
   "theme_color": "transparent",
   "description": "Just a test",
