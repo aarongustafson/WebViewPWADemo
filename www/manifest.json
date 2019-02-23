@@ -4,7 +4,7 @@
   "name": "WebView PWA",
   "short_name": "WebViewPWA",
   "scope": "/",
-  "display": "minimal-ui",
+  "display": "standalone",
   "start_url": "https://webviewpwademo.azurewebsites.net/",
   "theme_color": "transparent",
   "description": "Just a test",
