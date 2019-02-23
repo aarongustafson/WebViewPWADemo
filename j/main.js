@@ -4,8 +4,8 @@
       $a = document.createElement('a'),
       $li = document.createElement('li'),
       items = [
-        { url: 'https://bing.com', title: 'Foo' },
-        { url: 'https://bing.com', title: 'Bar' }
+        { url: 'https://bing.com', title: 'This is a link from the main.js file' },
+        { url: 'https://bing.com', title: 'This is another link from the main.js file' }
       ];
 
   window.populateItems = function( items )
