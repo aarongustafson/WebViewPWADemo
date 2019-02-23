@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Testing PWA + WebView + C#</title>
+  <link rel="manifest" href="manifest.json">
+  <!--  Styles  -->
+  <link rel="stylesheet" href="/c/default.css">
+</head>
+<body>
+  <h1>Testing PWA + WebView + C#</h1>
+  
+  <p>This is a test to demonstrate a PWA in a full-screen webview interacting with C# via JavaScript.</p>
+
+  <ul id="mylist">
+    <li>JavaScript will append two links to this list when the page runs</li>
+    <li>Then the C# end of things should also add some items</li>
+  </ul>
+
+  <script src="/j/main.js"></script>
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>
