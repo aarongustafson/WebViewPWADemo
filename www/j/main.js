@@ -10,6 +10,10 @@
 
   window.populateItems = function( items )
   {
+    if (typeof items === "string" && isJsonString(items))
+    {
+      items = JSON.parse(items);
+    }
     items.forEach(function(item){
       var $item = $li.cloneNode(),
           $link = $a.cloneNode();
@@ -24,5 +28,14 @@
 
   // Prepopulate
   window.populateItems( items );
+
+  function isJsonString(str) {
+    try {
+      JSON.parse(str);
+    } catch (e) {
+      return false;
+    }
+    return true;
+  }
 
 })(this, this.document);
