@@ -1,6 +1,6 @@
 "use strict";
 
-const staticCacheName = 'staticfiles';
+const staticCacheName = 'static';
 
 addEventListener('install', installEvent => {
   installEvent.waitUntil(
