@@ -7,9 +7,9 @@ addEventListener('install', installEvent => {
     caches.open(staticCacheName)
     .then( staticCache => {
       return staticCache.addAll([
-        '/index.html',
-        '/j/main.js',
-        '/c/default.css'
+        'index.html',
+        'j/main.js',
+        'c/default.css'
       ]);
     })
   );
